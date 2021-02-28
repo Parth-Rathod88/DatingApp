@@ -1,0 +1,11 @@
+form{
+    margin-left:auto
+}
+
+.username,.password{
+    margin-right:5px
+}
+
+.dropdown-toggle,.dropdown-item{
+    cursor:pointer
+}
