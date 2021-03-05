@@ -23,7 +23,7 @@
               <img src="{{user.photoUrl || './assets/user.png'}}" alt="{{user.username}}">
             </li>
             <li class="nav-item" ngbDropdown>
-              <a class="nav-link text-light ml-1" ngbDropdownToggle>Welcome {{user.username | titlecase}}</a>
+              <a class="nav-link text-light ml-1" ngbDropdownToggle>Welcome {{user.knownAs | titlecase}}</a>
               <div class="dropdown-menu mt-2" ngbDropdownMenu> 
                   <a class="dropdown-item" routerLink="/member/edit" ngbDropdownItem>Edit Profile</a>
                   <div class="dropdown-divider"></div>
